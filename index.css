@@ -5,14 +5,15 @@ body{
 }
 
 .container {
-    width: 335px;
-    height: 550px;
+    width: 330px;
+    height: 460px;
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5%;
     justify-items: center;
     font-family: Outfit;
     margin: 0;
+    box-shadow: 7px 8px 0px 0px rgba(0, 0, 0, 1.00);
 }
 
 .illustration img {
@@ -31,7 +32,7 @@ body{
     border-radius: 10%;
 }
 
-.content h4 {
+.head h4 {
     height: 10px;
     width: 70px;
     text-align: center;
@@ -40,3 +41,43 @@ body{
     margin: 0;
 }
 
+.date {
+    color: hsl(0, 0%, 7%);
+    font-size: 14px;
+}
+
+.content h2 { 
+    color: hsl(0, 0%, 0%);
+    font-size: 25px;
+}
+
+.para p {
+    color: hsl(0, 0%, 42%);
+    font-size: 15px;
+    margin: 0;
+}
+
+.btn {
+     display: flex;
+}
+
+.avatar {
+    align-items: center;
+    margin-top: 20px;
+    justify-content: flex-start;
+}
+
+.avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.last h4 {
+    margin-left: 0px;
+    font-size: 14px;
+    text-align: center;
+    margin: 20px;
+    padding: 10px 0px 0px 0px;
+    font-weight: 500;
+}
